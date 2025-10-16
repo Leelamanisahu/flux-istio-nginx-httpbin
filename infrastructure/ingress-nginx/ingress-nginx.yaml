@@ -29,7 +29,7 @@ spec:
         patch:
           podAnnotations:
             sidecar.istio.io/inject: "false"
-      replicaCount: 1
+      replicaCount: 2
       service:
         enabled: true
         annotations:
